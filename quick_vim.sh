@@ -1,7 +1,7 @@
 #!/bin/sh
 
-mkdir -p '~/.vim/pack/tpope/start'
-cd '~/.vim/pack/tpope/start'
+mkdir -p $HOME/.vim/pack/tpope/start
+cd $HOME/.vim/pack/tpope/start
 
 # All those netrw keybinds and settings you can't live without
 git clone 'https://github.com/tpope/vim-vinegar.git'
@@ -21,6 +21,6 @@ vim -u NONE -c "helptags sleuth/doc" -c q
 git clone 'https://tpope.io/vim/surround.git'
 vim -u NONE -c "helptags surround/doc" -c q
 
-mkdir -p '~/.vim/pack/sheerun/start'
-cd '~/.vim/pack/sheerun/start'
+mkdir -p $HOME/.vim/pack/sheerun/start
+cd $HOME/.vim/pack/sheerun/start
 git clone 'https://github.com/sheerun/vim-polyglot.git'
